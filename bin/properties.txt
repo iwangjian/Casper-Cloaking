@@ -1,0 +1,28 @@
+! limits for input fields
+MIN_MAXTIME = 1
+MAX_MAXTIME = 5000
+MAX_OBJCLASSES = 20
+MAX_OBJPERTIME = 1000
+MAX_OBJBEGIN = 100000
+MAX_EXTOBJCLASSES = 10
+MAX_EXTOBJPERTIME = 3
+MAX_EXTOBJBEGIN = 10
+
+! setting of the generator
+urlnez = file:map/oldenburgGen
+!waitingPeriod = 1
+!DSO
+VIZ
+outputFile = oldenburg.txt
+!seed = 123
+
+! setting of the applet
+baseScaleFactor = 1250
+maxScale = 1
+minScale = 64
+scale = 64
+viewWidth = 500
+viewHeight = 500
+language = E
+color = white
+mapColor = white
